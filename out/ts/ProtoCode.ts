@@ -2,10 +2,9 @@
 // DO NOT EDIT!
 export namespace pb{
 	export const enum Cmds {
-		Test = 100,
 	}
 	export var cmds:{ [key: number]: string }={
-		100:"Test"
+
 	}
 	export var cfgs:{ [key: string]: string[][] }={
 		"Test":[["1","id","1"],["2","position","Vector3"],["3","etype","6"]],
