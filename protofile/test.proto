@@ -1,0 +1,18 @@
+syntax ="proto3";
+option go_package = ".;pb";
+option csharp_namespace = "pb";
+// package pb;
+
+
+message Test{    //cmd:100
+        string id=1;
+        Vector3 position=2;
+        int32 etype=3;
+}
+
+message Vector3{
+    float x=1;
+    float y=2;
+    float z=3;
+}
+
